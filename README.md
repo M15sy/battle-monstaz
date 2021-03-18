@@ -10,6 +10,7 @@ Open a browser and go to `http://localhost:3000/`
 - tests
 - fancy dice
 - fancy health
+- flash red opacity when you get hit
 - push footer down
 - choose avatar & player name
 - next levels

@@ -14,8 +14,10 @@ const Container = styled.div`
   }
 `
 
-const Message = styled.div`
+const Message = styled.div<{ color?: string; size?: string }>`
   padding: 1rem;
+  ${(p) => p.color && `color: ${p.theme.colors[p.color]};`}
+  ${(p) => p.size && `font-size: ${p.size};`}
 `
 
 const Button = styled.button`
@@ -60,21 +62,25 @@ const NoMansLand: FC<NoMansLandProps> = ({
 }) => (
   <Container>
     <Message>{message}</Message>
-    {status === Status.GAME_OVER && (
+    {status === Status.GAME_OVER ? (
       <>
-        <Message>You lose, GAME OVER!</Message>
+        <Message color="red" size="1.5rem">
+          GAME OVER!
+        </Message>
         <Link onClick={onRetry}>Retry</Link>
       </>
-    )}
-    {status === Status.WIN && (
+    ) : status === Status.WIN ? (
       <>
-        <Message>YOU WIN!</Message>
+        <Message color="green" size="1.5rem">
+          YOU WIN!
+        </Message>
         <Link onClick={onContinue}>Continue</Link>
       </>
+    ) : (
+      <Button onClick={onAttack} disabled={status !== Status.DEFAULT}>
+        {status === Status.ROLLING ? 'rolling...' : 'ATTACK!'}
+      </Button>
     )}
-    <Button onClick={onAttack} disabled={status !== Status.DEFAULT}>
-      {status === Status.ROLLING ? 'rolling...' : 'ATTACK!'}
-    </Button>
   </Container>
 )
 
