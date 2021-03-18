@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-pFZIQ gPPJur"
+  >
+    <div
+      class="sc-jrAGrp gZDjVP"
+    >
+      <span
+        class="sc-kEjbxe fBsYtU"
+      >
+        *
+      </span>
+      <h1
+        class="sc-iqHYGH bkvYaZ"
+      >
+        Battle Monstaz
+      </h1>
+      <span
+        class="sc-kEjbxe fBsYtU"
+      >
+        *
+      </span>
+    </div>
+    <p>
+      Level 1
+    </p>
+    <div
+      class="sc-fubCfw gUkBgN"
+    >
+      <div
+        class="sc-dlfnbm kOyQas"
+      >
+        <div
+          class="sc-hKgILt ecbkzD"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Player"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+          <p>
+            Player
+          </p>
+          <small>
+            [Health: 100]
+          </small>
+        </div>
+        <div
+          class="sc-bdfBwQ klemFu"
+        >
+          <div
+            class="sc-gsTCUz bSYKyp"
+          />
+          <div
+            class="sc-gsTCUz bSYKyp"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-eCssSg hfFINw"
+      >
+        <div
+          class="sc-jSgupP jcQjeo"
+        />
+        <button
+          class="sc-gKsewC bbbPqk"
+        >
+          ATTACK!
+        </button>
+      </div>
+      <div
+        class="sc-dlfnbm cQnnzU"
+      >
+        <div
+          class="sc-hKgILt ecbkzD"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Monster"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+          <p>
+            Monster
+          </p>
+          <small>
+            [Health: 100]
+          </small>
+        </div>
+        <div
+          class="sc-bdfBwQ klemFu"
+        >
+          <div
+            class="sc-gsTCUz bSYKyp"
+          />
+          <div
+            class="sc-gsTCUz bSYKyp"
+          />
+        </div>
+      </div>
+    </div>
+    <footer
+      class="sc-crrsfI gCWAmI"
+    >
+      Created by M15sy
+    </footer>
+  </div>
+</DocumentFragment>
+`;
