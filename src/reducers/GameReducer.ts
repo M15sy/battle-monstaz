@@ -96,23 +96,18 @@ const GameReducer = (state: GameState, action: GameActions): GameState => {
       const monsterDie1 = rollDie()
       const monsterDie2 = rollDie()
 
-      const { message, playerHealth, monsterHealth, status } = calculateHealth(
-        playerDie1 + playerDie2,
-        state.playerHealth,
-        monsterDie1 + monsterDie2,
-        state.monsterHealth
-      )
-
       return {
         ...state,
-        status,
-        message,
         playerDie1,
         playerDie2,
-        playerHealth,
         monsterDie1,
         monsterDie2,
-        monsterHealth,
+        ...calculateHealth(
+          playerDie1 + playerDie2,
+          state.playerHealth,
+          monsterDie1 + monsterDie2,
+          state.monsterHealth
+        ),
       }
     }
 
